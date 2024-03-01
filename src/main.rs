@@ -2,7 +2,7 @@ use dotenv::dotenv;
 use serenity::{all::GatewayIntents, Client};
 use std::env;
 
-use base::handlers::event::Handler;
+use captcha_bot::handlers::event::Handler;
 
 #[tokio::main]
 async fn main() {
